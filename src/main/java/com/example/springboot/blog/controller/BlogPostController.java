@@ -37,7 +37,7 @@ public class BlogPostController {
     }
 
     // Show all blog posts
-    @GetMapping("/blogposts")
+    @GetMapping("/")
     public String getAllBlogPosts(Model model) {
         // Retrieve the list of all blog posts
         List<BlogPost> blogPosts = blogPostService.getAllBlogPosts();
