@@ -9,8 +9,7 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    
     padding: 1rem 0;
     text-align: center;
 }
@@ -25,17 +24,17 @@ header p {
     font-size: 1.2rem;
 }
 
-.section {
-	width: 30%
+.main {
+	display: flex;
 }
 
-.blog-list {
+.main-container {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
 
-.blog-list h2 {
+.main-container h2 {
     text-align: center;
     margin-bottom: 1.5rem;
     font-size: 2rem;

@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Blog | Home</title>
-    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/styles.css?version=51}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -10,16 +10,25 @@
 
 <header>
     <div class="header-container">
-        <h1>Welcome to My Blog</h1>
-        <p>Insights, stories, and updates from around the world.</p>
+        
     </div>
 </header>
 
-<main>
-	<section class="profile-side">
+<main class="main">
+	<section class="main-container profile-side">
 		
+				What is Lorem Ipsum?
+				Lorem Ipsum is simply dummy text of the printing and 
+				typesetting industry. Lorem Ipsum has been the industry's 
+				standard dummy text ever since the 1500s, when an unknown printer 
+				took a galley of type and scrambled it to make a type specimen book. 
+				It has survived not only five centuries, but also the leap into 
+				electronic typesetting, remaining essentially unchanged. It was 
+				popularised in the 1960s with the release of Letraset sheets containing 
+				Lorem Ipsum passages, and more recently with desktop publishing software 
+				like Aldus PageMaker including versions of Lorem Ipsum.
 	</section>
-    <section class="blog-list">
+    <section class="main-container">
         <h2>Recent Posts</h2>
         <div class="posts-container" th:each="blogPost : ${blogPosts}">
             <article class="blog-post">
@@ -34,9 +43,29 @@
                 <a href="#" class="read-more">Read More</a>
             </article>
         </div>
+		What is Lorem Ipsum?
+						Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry. Lorem Ipsum has been the industry's 
+						standard dummy text ever since the 1500s, when an unknown printer 
+						took a galley of type and scrambled it to make a type specimen book. 
+						It has survived not only five centuries, but also the leap into 
+						electronic typesetting, remaining essentially unchanged. It was 
+						popularised in the 1960s with the release of Letraset sheets containing 
+						Lorem Ipsum passages, and more recently with desktop publishing software 
+						like Aldus PageMaker including versions of Lorem Ipsum.
     </section>
-	<section class="right-side">
-			
+	<section class="main-container right-side">
+		
+				What is Lorem Ipsum?
+								Lorem Ipsum is simply dummy text of the printing and 
+								typesetting industry. Lorem Ipsum has been the industry's 
+								standard dummy text ever since the 1500s, when an unknown printer 
+								took a galley of type and scrambled it to make a type specimen book. 
+								It has survived not only five centuries, but also the leap into 
+								electronic typesetting, remaining essentially unchanged. It was 
+								popularised in the 1960s with the release of Letraset sheets containing 
+								Lorem Ipsum passages, and more recently with desktop publishing software 
+								like Aldus PageMaker including versions of Lorem Ipsum.
 	</section>
 </main>
 
