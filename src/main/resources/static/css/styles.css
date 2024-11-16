@@ -32,6 +32,33 @@ header p {
 	margin:auto;
 }
 
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories li {
+    margin: 5px 0;
+}
+
+.categories a {
+    text-decoration: none;
+    
+}
+.post-link {
+	border: 2px solid #78B3CE;
+	border-radius: 5px;
+	background-color: #78B3CE;
+	cursor: pointer;
+	text-align:center;
+}
+.post-link a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+
 .main {
 	display: flex;
 }

@@ -33,7 +33,7 @@ public class BlogPostController {
         // Save the blog post to the database
         blogPostService.save(blogPost);
         // Redirect to the page that lists all blog posts
-        return "redirect:/blogposts";
+        return "redirect:/";
     }
 
     // Show all blog posts

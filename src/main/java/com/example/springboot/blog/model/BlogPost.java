@@ -39,7 +39,13 @@ public class BlogPost {
     }
 
     public String getTitle() {
-        return title;
+    	if(title != "") {
+    		return title;
+    	}
+    	else {
+    		return "NoPost Title";
+    	}
+        
     }
 
     public void setTitle(String title) {
