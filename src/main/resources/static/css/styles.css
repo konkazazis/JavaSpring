@@ -8,8 +8,7 @@ body {
     color: #333;
 }
 
-header {
-    
+header {   
     padding: 1rem 0;
     text-align: center;
 }
@@ -22,6 +21,15 @@ header h1 {
 header p {
     margin: 0.5rem 0 0;
     font-size: 1.2rem;
+}
+.username {
+	display: flex;
+	justify-content: space-between;	
+	text-align:center;
+}
+.username h3 {
+	align-items: center;
+	margin:auto;
 }
 
 .main {
