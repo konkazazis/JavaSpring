@@ -42,21 +42,24 @@ header p {
 }
 
 .categories a {
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
+
 .post-link {
-	border: 2px solid #78B3CE;
-	border-radius: 5px;
-	background-color: #78B3CE;
-	cursor: pointer;
-	text-align:center;
+    display: block;
+    border-radius: 5px;
+    background-color: #78B3CE; 
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-decoration: none; 
+    padding: 5px;
 }
-.post-link a {
-	color: white;
-	text-decoration: none;
-	
+
+.post-link:hover {
+    background-color: #5a91a5; /* Optional: Hover effect */
 }
+
 
 
 .main {
@@ -119,7 +122,7 @@ header p {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #333;
-    color: #fff;
+    background: #fff;
+    color: black;
     margin-top: 2rem;
 }
