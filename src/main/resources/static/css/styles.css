@@ -72,7 +72,6 @@ header p {
 }
 
 .main-container {
-    max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
@@ -81,6 +80,9 @@ header p {
     text-align: center;
     margin-bottom: 1.5rem;
     font-size: 2rem;
+}
+.parent-post-container {
+	width: 60%;
 }
 
 .posts-container {
