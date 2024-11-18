@@ -16,6 +16,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+	font-weight: 100;
 }
 
 header p {
@@ -62,7 +63,7 @@ header p {
 }
 
 .post-link:hover {
-    background-color: #5a91a5; /* Optional: Hover effect */
+    background-color: #5a91a5;
 }
 
 
@@ -136,3 +137,52 @@ footer {
     color: black;
     margin-top: 2rem;
 }
+
+.add-blog-post {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.add-blog-post label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.add-blog-post input[type="text"],
+.add-blog-post textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.add-blog-post textarea {
+    resize: vertical;
+}
+
+.add-blog-post button[type="submit"] {
+    background-color: #78B3CE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-blog-post button[type="submit"]:hover {
+    background-color: #5a91a5;
+}
+
+
+
